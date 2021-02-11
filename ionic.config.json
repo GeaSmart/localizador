@@ -1,0 +1,7 @@
+{
+  "name": "localizador",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
