@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AnalyticsService } from '../services/analytics.service';
 
 @Component({
   selector: 'app-tab2',
@@ -6,7 +7,25 @@ import { Component } from '@angular/core';
   styleUrls: ['tab2.page.scss']
 })
 export class Tab2Page {
+  enabled = this.analyticsService.analyticsEnabled;
+  constructor(private analyticsService:AnalyticsService) {}
 
-  constructor() {}
+  setUser() {
+    this.analyticsService.setUser();
+   }
+  
+   setProperty() {
+     this.analyticsService.setProperty();
+   }
+  
+   logEvent() {
+     this.analyticsService.logEvent();
+   }
+  
+  
+   toggleDataCollection() {
+     this.analyticsService.toggleAnalytics();
+     this.enabled = this.analyticsService.analyticsEnabled;
+   }
 
 }

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "160040491751",
+    "project_id": "localizador-analytics",
+    "storage_bucket": "localizador-analytics.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160040491751:android:10d16ff124051f956ee042",
+        "android_client_info": {
+          "package_name": "io.gazabache.localizador"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160040491751-qd87d451b6thq92u67s7oirl89ha3pro.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8qrciewoTPQEUrmdbmRkT3KA6JYessBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160040491751-qd87d451b6thq92u67s7oirl89ha3pro.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -15,9 +15,19 @@
 
   <ion-item>
     <ion-label>
-      Proximamente
-    </ion-label>    
+      Analytics
+    </ion-label>        
   </ion-item>
+
+  <ion-content class="ion-padding">
+    <ion-button expand="full" (click)="setUser()">Set User ID</ion-button>
+    <ion-button expand="full" (click)="setProperty()">Set User Property</ion-button>
+    <ion-button expand="full" (click)="logEvent()">Log Event</ion-button>
+    <ion-button expand="full" routerLink="/second">Go to second page</ion-button>
+    <ion-button expand="full" (click)="toggleDataCollection()">Toggle Data collection</ion-button>
+   
+    Analytics enabled: {{ enabled }}
+  </ion-content>
 
   <!-- <app-explore-container name="Tab 2 page"></app-explore-container> -->
 </ion-content>

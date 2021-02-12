@@ -10,8 +10,8 @@ import { Geolocation } from '@ionic-native/geolocation/ngx';
   ]
 })
 export class Tab1Page {
-
-  //constructor() {}
+  
+  
   constructor(private geolocation: Geolocation) {
     this.locate();
   }
@@ -39,5 +39,4 @@ export class Tab1Page {
       // data.coords.longitude
      });
     }
-
 }
