@@ -13,17 +13,19 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <!-- <app-explore-container name="Tab 1 page"></app-explore-container> -->
   <ion-card>
     <img src="../../assets/img/location.jpg" alt="location">
     <ion-card-header>
-      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
-      <ion-card-title>Card Title</ion-card-title>
+      <ion-card-subtitle>Mi ubicación actual</ion-card-subtitle>
+      <ion-card-title>Mis latitudes y longitudes</ion-card-title>
     </ion-card-header>
   
-    <ion-card-content>
-      Keep close to Nature's heart... and break clear away, once in awhile,
-      and climb a mountain or spend a week in the woods. Wash your spirit clean.
+    <ion-card-content>      
+      Según los satélites tus coordenadas son...
+      <hr>
+      <h2>Latitud: {{latitud}} </h2>
+      <h2>Longitud: {{longitud}} </h2>
     </ion-card-content>
   </ion-card>
 </ion-content>
