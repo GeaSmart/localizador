@@ -1,5 +1,5 @@
 {
-  "appId": "io.ionic.starter",
+  "appId": "io.gazabache.localizador",
   "appName": "localizador",
   "bundledWebRuntime": false,
   "npmClient": "npm",
