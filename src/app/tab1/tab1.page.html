@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Mi ubicación
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,9 +9,23 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
+      <ion-title size="large">Mi ubicación</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <!-- <app-explore-container name="Tab 1 page"></app-explore-container> -->
+  <ion-card>
+    <img src="../../assets/img/location.jpg" alt="location">
+    <ion-card-header>
+      <ion-card-subtitle>Mi ubicación actual</ion-card-subtitle>
+      <ion-card-title>Mis latitudes y longitudes</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>      
+      Según los satélites tus coordenadas son...
+      <hr>
+      <h2>Latitud: {{latitud}} </h2>
+      <h2>Longitud: {{longitud}} </h2>
+    </ion-card-content>
+  </ion-card>
 </ion-content>

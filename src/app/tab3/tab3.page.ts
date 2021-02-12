@@ -9,4 +9,8 @@ export class Tab3Page {
 
   constructor() {}
 
+  navigate(){
+    window.open("https://www.bravedeveloper.com", "_blank");
+  }
+
 }
