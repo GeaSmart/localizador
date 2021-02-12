@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 3
+      Acerca de
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -13,5 +13,21 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <!-- <app-explore-container name="Tab 3 page"></app-explore-container> -->
+  <ion-item>
+    <ion-label>
+      <h1>Localizador</h1>      
+    </ion-label>
+    
+  </ion-item>   
+  <ion-item>
+    <ion-label>
+      Hey dev! Soy Gerson de bravedeveloper.com
+    </ion-label>    
+  </ion-item>
+  
+  <ion-item>
+    <ion-button color="primary" (click)="navigate()" expand="full">Ir a mi blog</ion-button>
+  </ion-item> 
+  
 </ion-content>
