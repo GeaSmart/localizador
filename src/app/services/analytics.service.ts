@@ -25,7 +25,7 @@ export class AnalyticsService {
 
   async initFirebase(){
     if((await Device.getInfo()).platform == 'web'){
-      FirebaseAnalytics.initializeFirebase(environment.firebaseConfig);
+      FirebaseAnalytics.initializeFirebase(environment.firebaseConfig);//check
     }
   }
 
